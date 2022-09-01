@@ -166,7 +166,7 @@ https://github.com/nitinkaushik3390/nitin-kaushik-QA/blob/master/Task3/testng.xm
    
    https://github.com/nitinkaushik3390/nitin-kaushik-QA.git
 
-4. Import cloned repo in step 3 as Maven project in Eclipse. Open the Task3 folder in the 'Task3' branch:
+4. Import cloned repo in step 3 as Maven project in Eclipse. Open the Task3 folder:
 
    File-> Import-> Go to Maven -> Existing Maven Projects. Click on Next
    Choose Task3 folder. And Click on Finish.
