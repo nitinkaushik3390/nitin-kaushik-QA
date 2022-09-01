@@ -147,13 +147,12 @@ Below mentioned libraries have been used to automate the REST services:
 ### **POM.XML**
 Available in the root directory and having all needed dependencies and plugins to be used by suite.
 
-https://github.com/nitinkaushik3390/nitin-kaushik/blob/Task3/Task3/pom.xml
-
+https://github.com/nitinkaushik3390/nitin-kaushik-QA/blob/master/Task3/pom.xml
 
 ### **TestNG.XML**
 TestNG Automation Suite XML File which is having configuration for all test classes to be executed.
 
-https://github.com/nitinkaushik3390/nitin-kaushik/blob/Task3/Task3/testng.xml
+https://github.com/nitinkaushik3390/nitin-kaushik-QA/blob/master/Task3/testng.xml
 
 ## **Execution Steps**
 
@@ -164,7 +163,8 @@ https://github.com/nitinkaushik3390/nitin-kaushik/blob/Task3/Task3/testng.xml
 2. Verify that the Pets API Endpoints are running by executing any end-point on this swagger link - https://petstore3.swagger.io/
 
 3. Clone this repo : 
-   https://github.com/nitinkaushik3390/nitin-kaushik.git
+   
+   https://github.com/nitinkaushik3390/nitin-kaushik-QA.git
 
 4. Import cloned repo in step 3 as Maven project in Eclipse. Open the Task3 folder in the 'Task3' branch:
 
