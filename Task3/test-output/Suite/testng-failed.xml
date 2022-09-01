@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="DeletePet">
+        <methods>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="deleteinvalidid"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- DeletePet -->
+      <class name="PutUpdateExistingPet">
+        <methods>
+          <include name="updatewithoutcategory"/>
+          <include name="updatewithoutstatus"/>
+          <include name="getResult"/>
+          <include name="updatewithoutmodifications"/>
+          <include name="updatewithoutname"/>
+          <include name="updateinvalidparams"/>
+          <include name="setup"/>
+          <include name="updateincorrectid"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="updateexistingpet"/>
+        </methods>
+      </class> <!-- PutUpdateExistingPet -->
+      <class name="PostNewPet">
+        <methods>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="startReport"/>
+          <include name="addnewpet"/>
+          <include name="addnewpetinvalidparams"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- PostNewPet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

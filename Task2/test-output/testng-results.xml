@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-31T13:55:12 IST" name="Default suite" finished-at="2022-08-31T13:56:45 IST" duration-ms="92266">
+    <groups>
+    </groups>
+    <test started-at="2022-08-31T13:55:12 IST" name="Default test" finished-at="2022-08-31T13:56:45 IST" duration-ms="92266">
+      <class name="appiumnewtest.MonefyTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:55:12 IST" name="startReport" finished-at="2022-08-31T13:55:13 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:55:13 IST" name="setup" finished-at="2022-08-31T13:55:25 IST" depends-on-methods="appiumnewtest.CreateReport.startReport" duration-ms="12521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InstallAppFromPlayStore()[pri:1, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:55:25 IST" name="InstallAppFromPlayStore" finished-at="2022-08-31T13:56:15 IST" duration-ms="49886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallAppFromPlayStore -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:15 IST" name="getResult" finished-at="2022-08-31T13:56:15 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InstallAppFromPlayStore status=SUCCESS method=MonefyTest.InstallAppFromPlayStore()[pri:1, instance:appiumnewtest.MonefyTest@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AddNewAccount()[pri:2, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:15 IST" name="AddNewAccount" finished-at="2022-08-31T13:56:27 IST" duration-ms="11453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:27 IST" name="getResult" finished-at="2022-08-31T13:56:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewAccount status=SUCCESS method=MonefyTest.AddNewAccount()[pri:2, instance:appiumnewtest.MonefyTest@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AddNewIncome()[pri:3, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:27 IST" name="AddNewIncome" finished-at="2022-08-31T13:56:37 IST" duration-ms="10410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewIncome -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:37 IST" name="getResult" finished-at="2022-08-31T13:56:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewIncome status=SUCCESS method=MonefyTest.AddNewIncome()[pri:3, instance:appiumnewtest.MonefyTest@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AddNewExpense()[pri:4, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:37 IST" name="AddNewExpense" finished-at="2022-08-31T13:56:43 IST" duration-ms="6433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewExpense -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:43 IST" name="getResult" finished-at="2022-08-31T13:56:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewExpense status=SUCCESS method=MonefyTest.AddNewExpense()[pri:4, instance:appiumnewtest.MonefyTest@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:44 IST" name="teardown" finished-at="2022-08-31T13:56:44 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:appiumnewtest.MonefyTest@2805d709]" started-at="2022-08-31T13:56:44 IST" name="endReport" finished-at="2022-08-31T13:56:45 IST" depends-on-methods="appiumnewtest.MonefyTest.teardown" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- appiumnewtest.MonefyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

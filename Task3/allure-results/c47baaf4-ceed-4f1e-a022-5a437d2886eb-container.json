@@ -1,0 +1,1 @@
+{"uuid":"c47baaf4-ceed-4f1e-a022-5a437d2886eb","name":"DeletePet.getResult","children":["7be8b6b2-fed0-4883-8382-ac692a28002e"],"description":"","befores":[],"afters":[{"name":"getResult","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1661791007542,"stop":1661791007542}],"start":1661791007542,"stop":1661791007542}

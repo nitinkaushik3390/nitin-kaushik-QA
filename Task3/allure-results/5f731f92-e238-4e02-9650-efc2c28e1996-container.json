@@ -1,0 +1,1 @@
+{"uuid":"5f731f92-e238-4e02-9650-efc2c28e1996","name":"PostNewPet.getResult","children":["e3d86ead-5cbb-4204-a7eb-442b598c6332"],"description":"","befores":[],"afters":[{"name":"getResult","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1661790587015,"stop":1661790587015}],"start":1661790587015,"stop":1661790587015}
