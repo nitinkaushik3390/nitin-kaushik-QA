@@ -72,7 +72,7 @@ List of Devices on which, this app was tested -
  6. Verify Selection of AllAccounts/Cash/PaymentCard shall populate correct results on Home Screen.
 
 
-#### Risks to be considered for this Application
+### Risks to be considered for this Application
 
  * Business Risks - Pro user Business model and its features, Incorrect or incomplete requirements, Changes in the requirements during development, Competing with the features and business model of similar apps, Expanding Customer Base.
 
