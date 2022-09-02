@@ -52,11 +52,12 @@ https://github.com/nitinkaushik3390/nitin-kaushik-QA/blob/master/Task2/testng.xm
 
 1. Setup java on your system.
 2. Download & Setup the latest version of Android SDK.
-3. Setup Android Studio and using it, create an Android AVD emulator having android version 8.0.
-4. Configure Google account in the above emulator to use the playstore.
-5. Download and install the latest version of Eclipse IDE for Java.
-6. Clone this repo - https://github.com/nitinkaushik3390/nitin-kaushik-QA.git 
-7. Import cloned repo in step 6 as Maven project in Eclipse:
+3. Download Appium Server Desktop application. Start Appium server on the HOST - 127.0.0.1 and PORT - 4723 (Also Allow CORS in the Advanced Settings).
+4. Setup Android Studio and using it, create an Android AVD emulator having android version 8.0.
+5. Configure Google account in the above emulator to use the playstore.
+6. Download and install the latest version of Eclipse IDE for Java.
+7. Clone this repo - https://github.com/nitinkaushik3390/nitin-kaushik-QA.git 
+8. Import cloned repo in step 6 as Maven project in Eclipse:
     File->Import->Go to Maven -> Existing Maven Projects. Click on Next
     Choose Task3 folder. And Click on Finish.
 8. In the imported project, right click on pom.xml & run as -> Maven build so that  all the dependencies will be uploaded.
